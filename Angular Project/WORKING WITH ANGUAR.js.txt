@@ -1,0 +1,59 @@
+WORKING WITH ANGUAR.js
+
+Angular - v17 (Nodejs 18)
+
+1) making Nodejs ready to work in our system:
+
+to check installation - npm -v
+Open cmd & write- npm install 18
+
+Search on google- install nodejs
+
+After installation check by running- npm -v | in cmd
+
+2) Installing Angularjs
+
+inside cmd-
+
+npm install -g @angular/cli@17
+
+verifying Angular installation- ng version (inside cmd)
+
+3) Create a folder on desktop named 'Angular Project'
+
+   Now, open this folder in VS Code.
+
+4) Open terminal in VSCode and run the following commands-
+			
+	ng new hello-world (select css, then press n)
+
+	cd hello-world
+
+	ng serve
+Press ctrl key, and click on the link generated in terminal. 
+Congratulations!! you can see the output of your app.
+
+
+Understanding the File Structure of Angular Project-
+
+1) Folder of app name (hello-world)
+  a)  /src
+           i) index.html -> top level HTML template of app.
+          ii) style.css -> the top level style sheet.
+         iii) main.ts -> is the file in which app starts running
+          iv) favicon.ico -> icon of angular
+ b) /app
+        i) app.component.ts -> source file describing 'app-root'
+       ii) app.component.css -> stylesheet description of the component
+
+ c) /assets -> containing images/media used by the app.
+   
+      
+
+
+
+
+
+
+
+
